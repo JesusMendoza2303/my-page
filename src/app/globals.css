@@ -1,33 +1,208 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.general {
+  /* background-image: url(`../../../../images/vecteezy_dark-blue-vector-blurred-shine-abstract-template_21948632.jpg); */
+  background-image: url(`../../../../images/fondo1.5.jpg); 
+  /* background-image: url(`../../../../images/azul.jpg);  */
+  /* background-image: url(`../../../../images/neon.jpg); */
+  background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+  
+  color: azure;
+  
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.buton1 {
+  /* box-shadow: 2px 2px 8px 0 rgb(209, 102, 221), 4px 4px 16px 0 #d66, 0px 0px 24px 2px rgb(221, 197, 102); */
+  box-shadow: -1px -1px 6px 0 rgb(195, 131, 255), 4px 4px 16px 1px rgb(31, 114, 202);
+  margin: 30px;
+  font-size: 15px;
+  
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.titleArea{
+  margin: 100px;
+  justify-content: center;
+  display: flex;
+  grid-template-columns: 1fr 1fr ;
+  padding: 50px;
+	gap: 50px;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.gif{
+  border-radius: 10px; 
+  box-shadow: -1px -1px 6px 0 rgb(195, 131, 255), 4px 4px 16px 1px rgb(31, 114, 202);
+}
+
+.textarea{
+  flex-direction: column;
+  
+}
+
+.title1 {
+  font-size: 80px;
+  background: linear-gradient(#ff184a, #f12bb6, #f8c613);
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.titleProyectos{
+  font-size: 60px;
+  margin-top: 20px;
+  margin-left: 60px;
+  background: linear-gradient(#f3f04a, #ffae43, #f01b60);
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.titleExperiencia{
+  font-size: 60px;
+  margin-top: 20px;
+  margin-left: 60px;
+  background: linear-gradient(#4af3c9, #437fff, #d71bf0);
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.titleHabilidades{
+  font-size: 60px;
+  margin-top: 20px;
+  margin-left: 60px;
+  background: linear-gradient(#96f34a, #ddfd4d, #f0be1b);
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title2 {
+
+  font-size: 40px;
+  color: rgb(220, 235, 235);
+}
+
+.title3 {
+
+  font-size: 30px;
+  color: rgb(184, 192, 192);
+}
+
+.card{
+  width: 500px;
+  margin-top: 20px;
+  margin-left: 70px;
+  margin-right: 20px;
+  box-shadow: -1px -1px 6px 0 rgb(195, 131, 255), 4px 4px 16px 1px rgb(31, 114, 202);
+  
+}
+
+.containerCard{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.experienciaTable{
+  color: rgb(15, 15, 15);
+  padding: 50px 50px 50px 50px;
+  
+}
+
+.chips{
+  margin-top: 5px;
+  /* margin-left: 5px; */
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.SistemaEducacion {
+  width: 500px;
+  border-radius: 5px;  
+}
+
+.containerProyect{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cardproyectos{
+  width: 550px;
+  margin-top: 20px;
+  margin-left: 45px;
+  margin-right: 20px;
+  box-shadow: -1px -1px 6px 0 rgb(195, 131, 255), 4px 4px 16px 1px rgb(31, 114, 202);
+}
+
+.LinkNavbar{
+  font-size: 25px;
+  padding: 10px 35px 10px 10px;
+}
+
+.buttonNavbar2{
+  
+ 
+  right: -300px;
+}
+
+.titleTableExperiencia{
+  font-size: 22px;
+  padding: 10px 10px 10px 10px;
+  color: #2e2e2e;
+}
+
+.experienciaDescripcion{
+  font-size: 20px;
+  padding: 10px 10px 10px 10px;
+  color: #2e2e2e;
+}
+
+
+.habilidadesDescripcion{
+  font-size: 20px;
+  padding: 10px 10px 10px 10px;
+  color: #141414;
+}
+
+.fecha{
+  font-size: 20px;
+  text-align: center;
+}
+
+.titleCardProyecto{
+  font-size: 25px;
+  padding: 18px 10px 10px 10px;
+}
+
+.proyectosDescripcion{
+  font-size: 19px;
+  padding: 5px 5px 5px 10px;
+  color: #141414;
+}
+
+.githubIcon{
+  height: 30px;
+  
+}
+
+.linkedinIcon{
+  height: 55px;
+  border-radius: 5px;
+}
+
+.linkContactame{
+  padding: 5px 5px 5px 5px;
+  font-size: 14px;
+  color: #141414;
+}
+.botonPrincipal{
+  color: white;
+}
+
+.pageGeneral{
+  padding: 0px 0px 70px 0px;
 }
