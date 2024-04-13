@@ -32,6 +32,22 @@
 	gap: 50px;
 }
 
+.principalArea{
+  margin: 100px;
+  justify-content: center;
+  display: flex;
+  grid-template-columns: 1fr 1fr ;
+  padding: 50px;
+	gap: 50px;
+}
+
+.fotoMe{
+  border-radius: 10px; 
+  box-shadow: -1px -1px 6px 0 rgb(195, 131, 255), 4px 4px 16px 1px rgb(31, 114, 202);
+  height: 700px;
+  width: 900px;
+}
+
 .gif{
   border-radius: 10px; 
   box-shadow: -1px -1px 6px 0 rgb(195, 131, 255), 4px 4px 16px 1px rgb(31, 114, 202);
@@ -39,7 +55,14 @@
 
 .textarea{
   flex-direction: column;
+ 
   
+}
+
+.textareaMe{
+  flex-direction: column;
+  font-size: 40px;
+  width: 1300px;
 }
 
 .title1 {
@@ -80,6 +103,21 @@
   -webkit-text-fill-color: transparent;
 }
 
+.titleAboutMe{
+  font-size: 60px;
+  margin-top: 20px;
+  margin-left: 30px;
+  background: linear-gradient(#ffc507, #ae4dfd, #5c05c0);
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.descriptionMe{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
 .title2 {
 
   font-size: 40px;
@@ -100,6 +138,8 @@
   box-shadow: -1px -1px 6px 0 rgb(195, 131, 255), 4px 4px 16px 1px rgb(31, 114, 202);
   
 }
+
+
 
 .containerCard{
   display: grid;
@@ -178,6 +218,8 @@
   padding: 18px 10px 10px 10px;
 }
 
+
+
 .proyectosDescripcion{
   font-size: 19px;
   padding: 5px 5px 5px 10px;
@@ -205,4 +247,17 @@
 
 .pageGeneral{
   padding: 0px 0px 70px 0px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
+
+.pageGeneralMe{
+  padding: 0px 0px 70px 0px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+

@@ -7,7 +7,11 @@ import { Providers } from "./providers";
 import Navbarconst from "../components/Navbar";
 
 
+
 export default function RootLayout({ children }) {
+
+
+
   return (
     <html lang="en" className="general">
 

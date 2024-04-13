@@ -1,4 +1,4 @@
-import { Inter, Lusitana, Brawler, Rowdies, Exo_2, Fjalla_One, Chakra_Petch, Kodchasan } from 'next/font/google';
+import { Inter, Lusitana, Brawler, Rowdies, Exo_2, Fjalla_One, Chakra_Petch, Kodchasan, Teko } from 'next/font/google';
 
  
 export const inter = Inter({ subsets: ['latin'] });
@@ -20,6 +20,10 @@ export const chackra  = Chakra_Petch ({
   weight: '400'
 });
 export const kodchasan  = Kodchasan ({
+  subsets: ['latin'],
+  weight: '400'
+});
+export const teko  = Teko ({
   subsets: ['latin'],
   weight: '400'
 });
